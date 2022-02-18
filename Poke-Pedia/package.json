@@ -1,0 +1,102 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/PokeList",
+  "dependencies": {
+    "@apollo/client": "^3.5.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "clsx": "^1.1.1",
+    "gh-pages": "^3.2.3",
+    "graphql": "^16.3.0",
+    "history": "^5.0.0",
+    "http": "^0.0.1-security",
+    "icomoon-react": "^2.0.19",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.20",
+    "md5": "^2.3.0",
+    "moment": "^2.28.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-container-dimensions": "^1.4.1",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^16.13.1",
+    "react-facebook-login": "^4.1.1",
+    "react-geolocated": "^3.2.0",
+    "react-google-login": "^5.1.25",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-overflow-menu": "^1.0.3",
+    "react-radio-buttons": "^1.2.2",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-scroll-horizontal": "^1.6.6",
+    "react-select": "^4.1.0",
+    "reactstrap": "^8.7.1",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-form": "^8.3.6",
+    "redux-history": "^1.0.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set 'GENERATE_SOURCEMAP=false' &&  react-scripts build",
+    "winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "macBuild": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "jest --coverage",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ],
+      "@babel/preset-react",
+      "@babel/preset-flow"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-flow": "^7.16.7",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^17.0.2"
+  }
+}

@@ -1,0 +1,113 @@
+.bodyContainerWelcome {
+    background: white;
+    color: black;
+    padding:20px;
+    height: 35vh
+  }
+
+.headerLine0Welcome {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 50px
+}
+
+.headerLine1Welcome {
+    text-align: center;
+    font-size: 50px
+}
+
+.welcomeText {
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center
+  }
+
+.logoSimasEmoney {
+    height: 80px;
+    width: 180px;
+  }
+
+.SimasIconPosition {
+     text-align: center;
+     margin-right: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+     padding: 20px;
+  }
+
+  .SubmitButton {
+    background:'white';
+    border: 0px;
+    border-radius: 50px;
+    color: 'black';
+    height: 80px;
+    font-size: 14px;
+    margin-top:80px;
+    /* padding-bottom: 20px; */
+    align-self: 'center'
+}
+
+.addToCartStyle{
+  flex-direction: row; 
+}
+
+ProductButton #img-product{
+  width: inherit;
+}
+
+
+.salesProductStyling{
+  padding: 20px
+}
+
+.categoryStyling{
+  padding: 20px
+}
+
+.categoryImage{
+  padding: 20px;
+}
+
+.paginationStyling{
+  padding-top: 40px
+}
+
+.productStyles{
+  border: 1px 1px gray
+}
+
+.productName-styling{
+  padding: 20px
+}
+
+.addToCartBtn{
+  /* width: 50px */
+}
+
+.buttonCartRow{
+  justify-content: space-between;
+  /* padding-right: 20px;
+  padding-left: 20px; */
+}
+
+.wishlistIcon{
+  padding:20px;
+  margin-left: 200px
+}
+
+.productGrossPrice{
+  align-content: space-between
+}
+
+.buttonContainer{
+  background: #f50057;
+  margin-bottom: 20px
+}
+
+.shoppingCartRow {
+  /* justify-content: 'space-between'; */
+  flex-direction: 'row';
+}
